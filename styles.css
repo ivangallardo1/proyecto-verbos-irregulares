@@ -1,0 +1,67 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url('img/fondo.jpg') no-repeat center center/cover;
+}
+
+.contenido-centrado{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contenido-centrado .contenido-verbos{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Contenedor */
+.contenedor{
+  width: 80vw;
+  max-width: 600px;
+  min-height: 500px;
+  padding: 20px;  
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+
+/* Contenido */
+input{
+  width: 70%;
+  height: 40px;
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px;
+  border: 4px solid #404040;
+  border-radius: 10px;
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: #35CF25;
+}
+
+/* Boton */
+.botones button {
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+}
+
+
